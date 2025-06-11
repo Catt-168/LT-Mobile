@@ -1,10 +1,11 @@
 import { StyleSheet, View } from "react-native";
-import BMICalculator from "../components/bmi/BMICalculator";
+import CustomCalendar from "../components/Calendar";
 
 export default function HomeScreen() {
   return (
     <View style={{ flex: 1 }}>
-      <BMICalculator />
+      {/* <BMICalculator /> */}
+      <CustomCalendar />
     </View>
   );
 }
